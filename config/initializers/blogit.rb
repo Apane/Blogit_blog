@@ -55,13 +55,13 @@ Blogit.configure do |config|
   config.highlight_code_syntax = false
 
   # RSS Feed title content
-  # config.rss_feed_title = "A blog about ponies!"
+  config.rss_feed_title = "Road to success"
 
   # RSS Feed description content
   # config.rss_feed_description = "Get your daily pony news here!"
 
   # RSS Feed language
-  # config.rss_feed_language = "en"
+  config.rss_feed_language = "en"
 
   # When using redcarpet as content parser, pass these options as defaults.
   # @see here for more options: https://github.com/tanoku/redcarpet
