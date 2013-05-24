@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body
+{
+font-family: "Helvetica", sans-serif;
+font-size: 10px;
+text-indent: 5px;
+padding: 2px 5px 2px 5px;
+font-weight: bold;
+background: #FFFFFF;
+    color: #333333;
+    font: 15px/20px Calibri,"Myriad Pro","Lucida Grande","Lucida Sans",Verdana,sans-serif;
+
+}
+
+
+#comment_nickname {
+	display: none;
+}
+
+
+body a {
+	color: black;
+	text-decoration: none;
+}
+
+.blog {
+}
+
+.left { width: 250px;
+	float: left;
+	padding-top: 80px;
+	padding-left: 50px;
+	background: url("backgroundabstract.png");;
+	padding-right: 50px;
+	position:fixed;
+	
+}
+
+.right { width: 750px;
+	float: right;
+	padding-top: 100px;
+}
