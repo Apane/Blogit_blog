@@ -4,8 +4,4 @@ class User < ActiveRecord::Base
   
   blogs
   
-  def username
-    name = "Anthony Panepinto"
-  end
-  
 end
