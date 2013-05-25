@@ -9,6 +9,7 @@ gem 'blogit', '0.8.0'
 
 gem "will_paginate", "~> 3.0.4"
 
+
 # Gems used only for assets and not required
 # in production environments by default.
 
@@ -32,6 +33,9 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'devise'
+
 
 gem 'jquery-rails'
 
