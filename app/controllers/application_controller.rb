@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   
   def current_user
-    @current_user ||= User.first || User.create!(name: "APane")
+    @current_user ||= User.first 
   end
   
   def login_required
