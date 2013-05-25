@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'blogit', '0.8.0'
 
 gem "will_paginate", "~> 3.0.4"
+gem "unicorn", "~> 4.6.2"
 
 # Gems used only for assets and not required
 # in production environments by default.
