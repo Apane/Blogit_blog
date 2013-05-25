@@ -1,11 +1,10 @@
-<div class="right">
+<div class="hm">
+
 <%= form_for [post, comment], remote: true,
   html: {
     class: "new_blog_comment", id: "new_blog_comment" } do |f| -%>
 
   <p><%=t :leave_a_comment, scope: 'blogit.comments'%></p>
-
-
 
   <%= field do %>
     <%= f.label :name, t(:name, scope: 'blogit.comments') %><br>
@@ -13,11 +12,15 @@
     <%= errors_on(comment, :name) %>
   <% end %>
 
+<div class="move">
+
   <%= field do %>
     <%= f.label :email, t(:email_never_displayed, scope: 'blogit.comments') %><br>
     <%= f.email_field :email %>
     <%= errors_on(comment, :email) %>
   <% end %>
+
+</div>
 
   <%= field do %>
     <%= f.label :website, t(:your_website, scope: 'blogit.comments') %><br>

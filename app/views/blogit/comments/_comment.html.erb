@@ -1,3 +1,4 @@
+
 <%= content_tag(:article, id: "blog_comment_#{comment.id}", class: "blog_comment") do %>
   <%= content_tag(:div, class: "blog_comment_name", id: "blog_comment_#{comment.id}_name") do %>
     <%= comment.website? ? link_to(comment.name, comment.website) : comment.name %>
@@ -18,5 +19,4 @@
   <%= render partial: "blogit/comments/admin_links", locals: {comment: comment} %>
 
 <% end if comment.persisted? %>
-
 

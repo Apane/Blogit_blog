@@ -26,6 +26,38 @@ background: #FFFFFF;
 }
 
 
+
+#new_blog_comment {
+    font-size: 1em;
+    margin: 0 0 1em;
+    padding: 2.5%;
+  width: 770px;
+float: right;
+    color: #555555;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 9px;
+    padding: 4px;
+border-top: solid black 0;
+}
+
+
+#blog_share_bar {
+
+	    clear: both;
+	    margin: 0 auto;
+	    padding: 1em 0 1.5em;
+	    text-align: center;
+	    width: 15em;
+}
+
+.social_button {
+    float: left;
+    width: 5em;
+}
+
+
 #comment_nickname {
 	display: none;
 }
@@ -51,6 +83,12 @@ body a {
 
 .right { width: 570px;
 	float: right;
-	padding-top: 100px;
+	padding-right:200px;
+	border-bottom: black dotted 1px;
+}
+
+.right1 { width: 570px;
+	float: right;
 	padding-right:200px;
 }
+
