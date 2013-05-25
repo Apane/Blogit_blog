@@ -14,8 +14,8 @@ gem "unicorn", "~> 4.6.2"
 # in production environments by default.
 
 group :production do
- gem 'pg'
- end
+  gem 'pg'
+end
 group :development, :test do
   gem 'sqlite3', '1.3.7'
 end
