@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'blogit', '0.8.0'
 
 gem "will_paginate", "~> 3.0.4"
+gem 'devise'
 
 
 
@@ -40,7 +41,6 @@ end
 
 
 gem 'jquery-rails'
-gem 'devise'
 
 
 # To use ActiveModel has_secure_password
