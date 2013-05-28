@@ -1,10 +1,17 @@
 PersonalBlog::Application.routes.draw do
-  
+    
+  devise_for :users
+
     get "static_pages/index"
 
     mount Blogit::Engine => "/blog"
 
-    root to: "blogit/posts#index"    
+    root to: "blogit/posts#index"   
+    
+    match '/login' => 'devise/sessions#new'
+    
+    match '/posts' => 'posts#index'
+    
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

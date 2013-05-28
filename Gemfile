@@ -10,6 +10,7 @@ gem 'blogit', '0.8.0'
 gem "will_paginate", "~> 3.0.4"
 
 
+
 # Gems used only for assets and not required
 # in production environments by default.
 
@@ -32,11 +33,15 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'devise'
+  
 end
 
 
 
 gem 'jquery-rails'
+gem 'devise'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
