@@ -1,6 +1,5 @@
 PersonalBlog::Application.routes.draw do
     
-  devise_for :users
 
     get "static_pages/index"
 
@@ -8,11 +7,10 @@ PersonalBlog::Application.routes.draw do
 
     root to: "blogit/posts#index"   
     
-    match '/login' => 'devise/sessions#new'
+    #match '/login' => 'devise/sessions#new'
     
-    match '/posts' => 'posts#index'
+    #match '/posts' => 'posts#index'
     
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
