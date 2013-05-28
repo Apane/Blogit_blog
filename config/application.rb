@@ -11,6 +11,8 @@ end
 
 module PersonalBlog
   class Application < Rails::Application
+    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -52,7 +54,6 @@ module PersonalBlog
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
-    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
     
 
     # Enable the asset pipeline
