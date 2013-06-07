@@ -140,6 +140,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   blogit (= 0.8.0)
   coffee-rails (~> 3.2.1)
   devise
