@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require_tree .
+
  */
 
 body
@@ -24,8 +25,6 @@ background: #FFFFFF;
     font: 15px/20px Calibri,"Myriad Pro","Lucida Grande","Lucida Sans",Verdana,sans-serif;
 
 }
-
-
 
 #new_blog_comment {
     font-size: 1em;

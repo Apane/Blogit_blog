@@ -13,6 +13,9 @@ gem "will_paginate", "~> 3.0.4"
 
 gem 'devise'
 
+gem "modernizr-rails"
+gem "gumby-framework"
+
 # Gems used only for assets and not required
 # in production environments by default.
 
